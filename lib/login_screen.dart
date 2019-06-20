@@ -65,7 +65,6 @@ class _LoginPageState extends State<LoginPage> {
                             height: 20,
                           ),
                           TextFormField(
-                            initialValue: 'ketan@gmail.com',
                             decoration: InputDecoration(
                                 isDense: true,
                                 icon: Icon(Icons.email),
@@ -79,7 +78,6 @@ class _LoginPageState extends State<LoginPage> {
                             height: 25,
                           ),
                           TextFormField(
-                            initialValue: 'ketan123',
                             decoration: InputDecoration(
                                 icon: Icon(Icons.lock_outline),
                                 isDense: true,
